@@ -1,0 +1,18 @@
+> announce listen 51697 seed vlh.png 4477 1024 8842c070f875f81e3deaccffc47ef315 texte.txt 25 1024 132ca96ccb4f1dd2848db40e7c60d11c light.jpg 3248 1024 9f2490e57941fb6be521adeabd105cfc  
+< ok
+
+> announce listen 41805 seed 
+< ok
+
+> announce listen 52044 seed vlh.png 4477 1024 8842c070f875f81e3deaccffc47ef315 texte.txt 25 1024 132ca96ccb4f1dd2848db40e7c60d11c light.jpg 3248 1024 9f2490e57941fb6be521adeabd105cfc  
+< ok
+
+> look * 
+> getfile 132ca96ccb4f1dd2848db40e7c60d11c 
+< peers 132ca96ccb4f1dd2848db40e7c60d11c [172.20.10.5:52044]
+
+> look key="132ca96ccb4f1dd2848db40e7c60d11c" 
+> getfile 8842c070f875f81e3deaccffc47ef315 
+< peers 8842c070f875f81e3deaccffc47ef315 [172.20.10.5:52044]
+
+> look key="8842c070f875f81e3deaccffc47ef315" 
